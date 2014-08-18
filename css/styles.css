@@ -1,0 +1,34 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	font-family: Arial, Georgia, "Times New Roman", Times, serif;
+}
+
+#jugador1 {
+	display: block;
+	float: left;
+	/*border: 0px solid #333;*/
+	width: 50%;
+	color: #0C193C;
+}
+
+#jugador2 {
+	display: block;
+	float: right;
+	/*border: 0px solid #47170b;*/
+	width: 50%;
+	color: #0C193C;
+}
+
+input {
+	cursor: pointer;
+}
+
+#turnoPokemon, #turnoPokemon2, #turno {
+	color: #219212;
+}
+
+#resultado {
+	color: #68F;
+}

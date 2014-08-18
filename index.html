@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Battle Pokemon</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/poke.js" type="text/javascript"></script>
+</head>
+<body>
+	<h1>Battle Pokemon</h1>
+	<div id="jugador1">
+		<img id="imgPoke">
+		<p id="nombrePokemon"></p>
+		<p id="vidaPokemon"></p>
+		<p id="ataquePokemon"></p>
+		<p id="gritoPokemon"></p>
+		<p id="turnoPokemon"></p>
+	</div>
+	<div id="jugador2">
+		<img id="imgPoke2">
+		<p id="nombrePokemon2"></p>
+		<p id="vidaPokemon2"></p>
+		<p id="ataquePokemon2"></p>
+		<p id="gritoPokemon2"></p>
+		<p id="turnoPokemon2"></p>
+	</div>
+	<div id="turno"></div>	
+	<div id="botones">
+		<input type="button" name="battle" value="Battle" onclick="battle()">
+		<input type="button" name="reiniciar" value="Reiniciar" onclick="reset()">
+	</div>
+
+	<div id="resultado"></div>
+
+	<script type="text/javascript">
+		inicio();
+	</script>
+</body>
+</html>
